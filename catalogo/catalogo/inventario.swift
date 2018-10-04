@@ -7,10 +7,12 @@
 //
 
 import Foundation
+import UIKit
 
 struct producto {
     var marca: String
     var precio: String
-    var descripcion: String
-    //var imagen: String
+    var size: String
+    var ImagenA : UIImage
+    var cantidad : Int
 }

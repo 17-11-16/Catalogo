@@ -14,6 +14,7 @@
 		651B6E1A215C38A900675D0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 651B6E18215C38A900675D0D /* LaunchScreen.storyboard */; };
 		651B6E22215C3B3500675D0D /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B6E21215C3B3500675D0D /* secondViewController.swift */; };
 		651B6E24215C3B9800675D0D /* inventario.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651B6E23215C3B9800675D0D /* inventario.swift */; };
+		65EB5BC5215D5F33009F6C8B /* carritoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65EB5BC4215D5F33009F6C8B /* carritoViewController.swift */; };
 		FACC5858215D3BA00046A51C /* cerrar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC5857215D3BA00046A51C /* cerrar.swift */; };
 		FACC585C215D44710046A51C /* bienvenido.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACC585B215D44710046A51C /* bienvenido.swift */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,7 @@
 		651B6E1B215C38A900675D0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		651B6E21215C3B3500675D0D /* secondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		651B6E23215C3B9800675D0D /* inventario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = inventario.swift; sourceTree = "<group>"; };
+		65EB5BC4215D5F33009F6C8B /* carritoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = carritoViewController.swift; sourceTree = "<group>"; };
 		FACC5857215D3BA00046A51C /* cerrar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cerrar.swift; sourceTree = "<group>"; };
 		FACC585B215D44710046A51C /* bienvenido.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bienvenido.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 				651B6E23215C3B9800675D0D /* inventario.swift */,
 				FACC5857215D3BA00046A51C /* cerrar.swift */,
 				FACC585B215D44710046A51C /* bienvenido.swift */,
+				65EB5BC4215D5F33009F6C8B /* carritoViewController.swift */,
 			);
 			path = catalogo;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65EB5BC5215D5F33009F6C8B /* carritoViewController.swift in Sources */,
 				651B6E12215C38A800675D0D /* ViewController.swift in Sources */,
 				651B6E22215C3B3500675D0D /* secondViewController.swift in Sources */,
 				FACC585C215D44710046A51C /* bienvenido.swift in Sources */,

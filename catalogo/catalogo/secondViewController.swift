@@ -10,7 +10,14 @@ import UIKit
 
 class secondViewController: UIViewController {
 
+    @IBOutlet weak var Imagen: UIImageView!
+    
     @IBOutlet weak var Marca: UILabel!
+    
+    @IBOutlet weak var Precio: UILabel!
+    
+    @IBOutlet weak var Descripcion: UILabel!
+    
     
     var deFirstView : producto!
     
@@ -18,10 +25,15 @@ class secondViewController: UIViewController {
         super.viewDidLoad()
         
         Marca.text = deFirstView.marca
-
-        
+        Precio.text = deFirstView.precio
+        Descripcion.text = deFirstView.size
+        Imagen.image = deFirstView.ImagenA
     }
     
-
-
+    @IBAction func Comprar(_ sender: UIButton) {
+        deFirstView.cantidad += 1
+        viewDidLoad()
+    }
+    
+    
 }
